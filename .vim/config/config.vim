@@ -23,6 +23,10 @@ set laststatus=2
 set statusline=\ %{RootPath()}%t\ %m%=%4l/%L\ 
 set directory=$HOME/.vim/swp
 
+" Ag deafault root path as project root
+let g:ag_working_path_mode="r"
+
+
 " persistant undo
 if has('persistent_undo')
   set undodir=~/.vim/undo

@@ -7,5 +7,6 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'benmills/vimux'
 Plugin 'janko-m/vim-test'
 Plugin 'leafgarland/typescript-vim'
+Plugin 'rking/ag'
 call vundle#end()
 filetype plugin indent on
